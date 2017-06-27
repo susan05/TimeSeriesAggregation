@@ -110,7 +110,7 @@
         <Attribute>
           <ID>Time</ID>
           <Name>Time</Name>
-          <Type>Years</Type>
+          <Type>Hours</Type>
           <Usage>Key</Usage>
           <KeyColumns>
             <KeyColumn>

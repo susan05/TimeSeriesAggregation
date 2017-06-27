@@ -97,7 +97,7 @@
     <Attribute dwd:design-time-name="783aa7c6-a453-4b3f-a9f7-2c65bce2cf26">
       <ID>Time</ID>
       <Name>Time</Name>
-      <Type>Years</Type>
+      <Type>Hours</Type>
       <Usage>Key</Usage>
       <KeyColumns>
         <KeyColumn dwd:design-time-name="0646007a-4aef-46aa-af08-6f394b1f75e1">
