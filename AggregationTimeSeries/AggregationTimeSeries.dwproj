@@ -20,12 +20,8 @@
   </Cubes>
   <Dimensions>
     <ProjectItem>
-      <Name>Time.dim</Name>
-      <FullPath>Time.dim</FullPath>
-    </ProjectItem>
-    <ProjectItem>
-      <Name>TagId.dim</Name>
-      <FullPath>TagId.dim</FullPath>
+      <Name>h Interval.dim</Name>
+      <FullPath>h Interval.dim</FullPath>
     </ProjectItem>
     <ProjectItem>
       <Name>Collect.dim</Name>

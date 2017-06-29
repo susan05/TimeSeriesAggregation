@@ -13,13 +13,10 @@
     </DataSources>
     <Dimensions>
       <Dimension>
-        <ID>Collect</ID>
+        <ID>h Interval</ID>
       </Dimension>
       <Dimension>
         <ID>Collect 1</ID>
-      </Dimension>
-      <Dimension>
-        <ID>Collect 2</ID>
       </Dimension>
     </Dimensions>
     <Cubes>

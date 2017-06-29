@@ -12,8 +12,8 @@
   </DataSourceImpersonationInfo>
   <Dimensions>
     <Dimension>
-      <ID>Collect</ID>
-      <Name>Time</Name>
+      <ID>h Interval</ID>
+      <Name>h Interval</Name>
       <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
       <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
       <Annotations>
@@ -21,7 +21,7 @@
           <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramLayout</Name>
           <Value>
             <dds xmlns="">
-              <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="2" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-4525" scrolltop="-5266" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="100" x="8308" y="14526" backcolor="2434342" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="0" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
+              <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="4" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-3234" scrolltop="-4449" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="100" x="9525" y="17595" backcolor="2434342" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="0" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
                 <font>
                   <ddsxmlobjectstreamwrapper binary="01000000900144420100065461686f6d61" />
                 </font>
@@ -32,7 +32,7 @@
               <layoutmanager>
                 <ddsxmlobj />
               </layoutmanager>
-              <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.3" tooltip="collect" left="20" top="0" logicalid="1" controlid="1" masterid="0" hint1="0" hint2="0" width="3000" height="3995" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+              <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.3" tooltip="collect" left="28" top="4702" logicalid="1" controlid="1" masterid="0" hint1="0" hint2="0" width="3000" height="3995" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
                 <control>
                   <ddsxmlobjectstreaminitwrapper binary="000c0000b80b00009b0f0000" />
                 </control>
@@ -42,6 +42,35 @@
                   </ddsxmlobj>
                 </layoutobject>
                 <shape groupshapeid="0" groupnode="0" />
+              </ddscontrol>
+              <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.3" tooltip="hInterval" left="20" top="0" logicalid="2" controlid="2" masterid="0" hint1="0" hint2="0" width="3016" height="2302" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                <control>
+                  <ddsxmlobjectstreaminitwrapper binary="000c0000c80b0000fe080000" />
+                </control>
+                <layoutobject>
+                  <ddsxmlobj>
+                    <property name="LogicalObject" value="hInterval" vartype="8" />
+                  </ddsxmlobj>
+                </layoutobject>
+                <shape groupshapeid="0" groupnode="0" />
+              </ddscontrol>
+              <ddscontrol controlprogid="MSDDS.Polyline" left="1129" top="2002" logicalid="3" controlid="3" masterid="0" hint1="0" hint2="0" width="799" height="3200" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                <control>
+                  <ddsxmlobj>
+                    <polyline endtypedst="6" endtypesrc="3" usercolor="15856113" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+                  </ddsxmlobj>
+                </control>
+                <layoutobject>
+                  <ddsxmlobj>
+                    <property name="LogicalObject" value="dataSet.Relations[hInterval-collect]" vartype="8" />
+                    <property name="Virtual" value="0" vartype="11" />
+                    <property name="VisibleAP" value="0" vartype="3" />
+                  </ddsxmlobj>
+                </layoutobject>
+                <connector lineroutestyle="MSDDS.Rectilinear" sourceid="1" destid="2" sourceattachpoint="4" destattachpoint="5" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+                  <point x="1528" y="4702" />
+                  <point x="1528" y="2302" />
+                </connector>
               </ddscontrol>
             </dds>
           </Value>
@@ -60,11 +89,11 @@
         </Annotation>
         <Annotation>
           <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortLeft</Name>
-          <Value>-4525</Value>
+          <Value>-3234</Value>
         </Annotation>
         <Annotation>
           <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortTop</Name>
-          <Value>-5266</Value>
+          <Value>-4449</Value>
         </Annotation>
         <Annotation>
           <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingLeft</Name>
@@ -82,12 +111,20 @@
           <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ARDiagramLayout</Name>
           <Value>
             <DiagramLayout ZoomPercent="100" ViewPortX="0" ViewPortY="0" xmlns="">
-              <Shapes NodeWidth="59">
+              <Shapes NodeWidth="114">
                 <Shape Id="Time" Expanded="true">
                   <Attributes>
                     <Attribute Id="Time" />
+                    <Attribute Id="END TIME" />
+                    <Attribute Id="START TIME" />
                   </Attributes>
                   <Position x="20" y="20" />
+                </Shape>
+                <Shape Id="Collect - Time" Expanded="false">
+                  <Attributes>
+                    <Attribute Id="Collect - Time" />
+                  </Attributes>
+                  <Position x="167" y="20" />
                 </Shape>
               </Shapes>
             </DiagramLayout>
@@ -100,6 +137,7 @@
         <DataSourceViewID>Time Series</DataSourceViewID>
       </Source>
       <Type>Time</Type>
+      <UnknownMember>Visible</UnknownMember>
       <ErrorConfiguration>
         <KeyNotFound>ReportAndStop</KeyNotFound>
         <KeyDuplicate>ReportAndStop</KeyDuplicate>
@@ -110,11 +148,77 @@
         <Attribute>
           <ID>Time</ID>
           <Name>Time</Name>
-          <Type>Hours</Type>
+          <Type>Date</Type>
           <Usage>Key</Usage>
           <KeyColumns>
             <KeyColumn>
               <DataType>Date</DataType>
+              <Source xsi:type="ColumnBinding">
+                <TableID>hInterval</TableID>
+                <ColumnID>time</ColumnID>
+              </Source>
+            </KeyColumn>
+          </KeyColumns>
+          <AttributeRelationships>
+            <AttributeRelationship>
+              <AttributeID>START TIME</AttributeID>
+              <Name>START TIME</Name>
+            </AttributeRelationship>
+            <AttributeRelationship>
+              <AttributeID>END TIME</AttributeID>
+              <Name>END TIME</Name>
+            </AttributeRelationship>
+            <AttributeRelationship>
+              <AttributeID>Collect - Time</AttributeID>
+              <Name>Collect - Time</Name>
+            </AttributeRelationship>
+          </AttributeRelationships>
+          <OrderBy>Key</OrderBy>
+          <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+          <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+        </Attribute>
+        <Attribute>
+          <ID>START TIME</ID>
+          <Name>START TIME</Name>
+          <Type>Days</Type>
+          <KeyColumns>
+            <KeyColumn>
+              <DataType>Date</DataType>
+              <Source xsi:type="ColumnBinding">
+                <TableID>hInterval</TableID>
+                <ColumnID>START_TIME</ColumnID>
+              </Source>
+            </KeyColumn>
+          </KeyColumns>
+          <OrderBy>Key</OrderBy>
+          <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+          <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+        </Attribute>
+        <Attribute>
+          <ID>END TIME</ID>
+          <Name>END TIME</Name>
+          <Type>Days</Type>
+          <KeyColumns>
+            <KeyColumn>
+              <DataType>Date</DataType>
+              <Source xsi:type="ColumnBinding">
+                <TableID>hInterval</TableID>
+                <ColumnID>END_TIME</ColumnID>
+              </Source>
+            </KeyColumn>
+          </KeyColumns>
+          <OrderBy>Key</OrderBy>
+          <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+          <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+        </Attribute>
+        <Attribute>
+          <ID>Collect - Time</ID>
+          <Name>Collect - Time</Name>
+          <Type>Days</Type>
+          <KeyColumns>
+            <KeyColumn>
+              <DataType>Date</DataType>
+              <NullProcessing>UnknownMember</NullProcessing>
               <Source xsi:type="ColumnBinding">
                 <TableID>dbo_collect</TableID>
                 <ColumnID>time</ColumnID>
@@ -132,6 +236,11 @@
           <Name>Hierarchy</Name>
           <Levels>
             <Level>
+              <ID>Collect - Time</ID>
+              <Name>Collect - Time</Name>
+              <SourceAttributeID>Collect - Time</SourceAttributeID>
+            </Level>
+            <Level>
               <ID>Time</ID>
               <Name>Time</Name>
               <SourceAttributeID>Time</SourceAttributeID>
@@ -143,7 +252,7 @@
     </Dimension>
     <Dimension>
       <ID>Collect 1</ID>
-      <Name>TagId</Name>
+      <Name>Collect</Name>
       <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
       <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
       <Annotations>
@@ -151,7 +260,7 @@
           <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramLayout</Name>
           <Value>
             <dds xmlns="">
-              <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="2" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-3242" scrolltop="-5266" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="100" x="9525" y="14526" backcolor="2434342" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="0" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
+              <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="2" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-2766" scrolltop="-6800" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="100" x="8573" y="17595" backcolor="2434342" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="0" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
                 <font>
                   <ddsxmlobjectstreamwrapper binary="01000000900144420100065461686f6d61" />
                 </font>
@@ -190,89 +299,15 @@
         </Annotation>
         <Annotation>
           <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortLeft</Name>
-          <Value>-3242</Value>
+          <Value>-2766</Value>
         </Annotation>
         <Annotation>
           <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortTop</Name>
-          <Value>-5266</Value>
+          <Value>-6800</Value>
         </Annotation>
         <Annotation>
           <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingLeft</Name>
           <Value>20</Value>
-        </Annotation>
-        <Annotation>
-          <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingTop</Name>
-          <Value>0</Value>
-        </Annotation>
-        <Annotation>
-          <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramZoom</Name>
-          <Value>100</Value>
-        </Annotation>
-      </Annotations>
-      <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
-      <State>Unprocessed</State>
-      <Source xsi:type="DataSourceViewBinding">
-        <DataSourceViewID>Time Series</DataSourceViewID>
-      </Source>
-      <ErrorConfiguration>
-        <KeyNotFound>ReportAndStop</KeyNotFound>
-        <KeyDuplicate>ReportAndStop</KeyDuplicate>
-        <NullKeyNotAllowed>ReportAndStop</NullKeyNotAllowed>
-      </ErrorConfiguration>
-      <CurrentStorageMode>Molap</CurrentStorageMode>
-      <Attributes>
-        <Attribute>
-          <ID>Tag Id</ID>
-          <Name>Tag Id</Name>
-          <Usage>Key</Usage>
-          <KeyColumns>
-            <KeyColumn>
-              <DataType>Integer</DataType>
-              <Source xsi:type="ColumnBinding">
-                <TableID>dbo_collect</TableID>
-                <ColumnID>tagId</ColumnID>
-              </Source>
-            </KeyColumn>
-          </KeyColumns>
-          <OrderBy>Key</OrderBy>
-          <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
-          <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
-        </Attribute>
-      </Attributes>
-      <ddl300:ProcessingState>Unprocessed</ddl300:ProcessingState>
-    </Dimension>
-    <Dimension>
-      <ID>Collect 2</ID>
-      <Name>Collect</Name>
-      <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
-      <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
-      <Annotations>
-        <Annotation>
-          <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramLayout</Name>
-        </Annotation>
-        <Annotation>
-          <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowFriendlyNames</Name>
-          <Value>true</Value>
-        </Annotation>
-        <Annotation>
-          <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowRelationshipNames</Name>
-          <Value>false</Value>
-        </Annotation>
-        <Annotation>
-          <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:UseDiagramDefaultLayout</Name>
-          <Value>true</Value>
-        </Annotation>
-        <Annotation>
-          <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortLeft</Name>
-          <Value>0</Value>
-        </Annotation>
-        <Annotation>
-          <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortTop</Name>
-          <Value>0</Value>
-        </Annotation>
-        <Annotation>
-          <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingLeft</Name>
-          <Value>0</Value>
         </Annotation>
         <Annotation>
           <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingTop</Name>
@@ -347,7 +382,7 @@
           <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramLayout</Name>
           <Value>
             <dds xmlns="">
-              <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="2" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-10598" scrolltop="-5266" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="100" x="24236" y="14526" backcolor="2434342" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="0" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
+              <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="4" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-10590" scrolltop="-4449" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="100" x="24236" y="17595" backcolor="2434342" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="0" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
                 <font>
                   <ddsxmlobjectstreamwrapper binary="01000000900144420100065461686f6d61" />
                 </font>
@@ -358,7 +393,7 @@
               <layoutmanager>
                 <ddsxmlobj />
               </layoutmanager>
-              <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.3" tooltip="collect" left="20" top="0" logicalid="1" controlid="1" masterid="0" hint1="0" hint2="0" width="3000" height="3995" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+              <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.3" tooltip="collect" left="28" top="0" logicalid="1" controlid="1" masterid="0" hint1="0" hint2="0" width="3000" height="3995" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
                 <control>
                   <ddsxmlobjectstreaminitwrapper binary="000c0000b80b00009b0f0000" />
                 </control>
@@ -368,6 +403,35 @@
                   </ddsxmlobj>
                 </layoutobject>
                 <shape groupshapeid="0" groupnode="0" />
+              </ddscontrol>
+              <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.3" tooltip="hInterval" left="20" top="6395" logicalid="2" controlid="2" masterid="0" hint1="0" hint2="0" width="3016" height="2302" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                <control>
+                  <ddsxmlobjectstreaminitwrapper binary="000c0000c80b0000fe080000" />
+                </control>
+                <layoutobject>
+                  <ddsxmlobj>
+                    <property name="LogicalObject" value="hInterval" vartype="8" />
+                  </ddsxmlobj>
+                </layoutobject>
+                <shape groupshapeid="0" groupnode="0" />
+              </ddscontrol>
+              <ddscontrol controlprogid="MSDDS.Polyline" left="1129" top="3496" logicalid="3" controlid="3" masterid="0" hint1="0" hint2="0" width="799" height="3199" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                <control>
+                  <ddsxmlobj>
+                    <polyline endtypedst="6" endtypesrc="3" usercolor="15856113" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+                  </ddsxmlobj>
+                </control>
+                <layoutobject>
+                  <ddsxmlobj>
+                    <property name="LogicalObject" value="dataSet.Relations[hInterval-collect]" vartype="8" />
+                    <property name="Virtual" value="0" vartype="11" />
+                    <property name="VisibleAP" value="0" vartype="3" />
+                  </ddsxmlobj>
+                </layoutobject>
+                <connector lineroutestyle="MSDDS.Rectilinear" sourceid="1" destid="2" sourceattachpoint="5" destattachpoint="4" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+                  <point x="1528" y="3995" />
+                  <point x="1528" y="6395" />
+                </connector>
               </ddscontrol>
             </dds>
           </Value>
@@ -386,11 +450,11 @@
         </Annotation>
         <Annotation>
           <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortLeft</Name>
-          <Value>-10598</Value>
+          <Value>-10590</Value>
         </Annotation>
         <Annotation>
           <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortTop</Name>
-          <Value>-5266</Value>
+          <Value>-4449</Value>
         </Annotation>
         <Annotation>
           <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingLeft</Name>
@@ -409,12 +473,31 @@
       <State>Unprocessed</State>
       <Dimensions>
         <Dimension>
-          <ID>Time</ID>
-          <Name>Time</Name>
-          <DimensionID>Collect</DimensionID>
+          <ID>Collect</ID>
+          <Name>Collect</Name>
+          <DimensionID>Collect 1</DimensionID>
+          <Attributes>
+            <Attribute>
+              <AttributeID>Tag Id</AttributeID>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+        <Dimension>
+          <ID>h Interval</ID>
+          <Name>h Interval</Name>
+          <DimensionID>h Interval</DimensionID>
           <Attributes>
             <Attribute>
               <AttributeID>Time</AttributeID>
+            </Attribute>
+            <Attribute>
+              <AttributeID>START TIME</AttributeID>
+            </Attribute>
+            <Attribute>
+              <AttributeID>END TIME</AttributeID>
+            </Attribute>
+            <Attribute>
+              <AttributeID>Collect - Time</AttributeID>
             </Attribute>
           </Attributes>
           <Hierarchies>
@@ -422,16 +505,6 @@
               <HierarchyID>Hierarchy</HierarchyID>
             </Hierarchy>
           </Hierarchies>
-        </Dimension>
-        <Dimension>
-          <ID>TagId</ID>
-          <Name>TagId</Name>
-          <DimensionID>Collect 1</DimensionID>
-          <Attributes>
-            <Attribute>
-              <AttributeID>Tag Id</AttributeID>
-            </Attribute>
-          </Attributes>
         </Dimension>
       </Dimensions>
       <MeasureGroups>
@@ -470,26 +543,8 @@
           <StorageMode>Molap</StorageMode>
           <ProcessingMode>Regular</ProcessingMode>
           <Dimensions>
-            <Dimension xsi:type="RegularMeasureGroupDimension">
-              <CubeDimensionID>Time</CubeDimensionID>
-              <Attributes>
-                <Attribute>
-                  <AttributeID>Time</AttributeID>
-                  <KeyColumns>
-                    <KeyColumn>
-                      <DataType>Date</DataType>
-                      <Source xsi:type="ColumnBinding">
-                        <TableID>dbo_collect</TableID>
-                        <ColumnID>time</ColumnID>
-                      </Source>
-                    </KeyColumn>
-                  </KeyColumns>
-                  <Type>Granularity</Type>
-                </Attribute>
-              </Attributes>
-            </Dimension>
-            <Dimension xsi:type="RegularMeasureGroupDimension">
-              <CubeDimensionID>TagId</CubeDimensionID>
+            <Dimension xsi:type="DegenerateMeasureGroupDimension">
+              <CubeDimensionID>Collect</CubeDimensionID>
               <Attributes>
                 <Attribute>
                   <AttributeID>Tag Id</AttributeID>
@@ -499,6 +554,20 @@
                       <Source xsi:type="ColumnBinding">
                         <TableID>dbo_collect</TableID>
                         <ColumnID>tagId</ColumnID>
+                      </Source>
+                    </KeyColumn>
+                    <KeyColumn>
+                      <DataType>Date</DataType>
+                      <Source xsi:type="ColumnBinding">
+                        <TableID>dbo_collect</TableID>
+                        <ColumnID>time</ColumnID>
+                      </Source>
+                    </KeyColumn>
+                    <KeyColumn>
+                      <DataType>Integer</DataType>
+                      <Source xsi:type="ColumnBinding">
+                        <TableID>dbo_collect</TableID>
+                        <ColumnID>ownSysId</ColumnID>
                       </Source>
                     </KeyColumn>
                   </KeyColumns>
@@ -578,7 +647,7 @@
                 <Name>_ALL_TABLES_</Name>
                 <DiagramLayout>
                   <dds>
-                    <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="2" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-12079" scrolltop="-5927" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="100" x="27199" y="15849" backcolor="2434342" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="0" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
+                    <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="5" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-9170" scrolltop="-5411" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="100" x="27199" y="18918" backcolor="2434342" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="0" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
                       <font>
                         <ddsxmlobjectstreamwrapper binary="01000000900144420100065461686f6d61" />
                       </font>
@@ -589,9 +658,9 @@
                     <layoutmanager>
                       <ddsxmlobj />
                     </layoutmanager>
-                    <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.3" tooltip="collect" left="20" top="0" logicalid="1" controlid="1" masterid="0" hint1="0" hint2="0" width="4270" height="3995" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                    <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.3" tooltip="collect" left="3337" top="-1112" logicalid="1" controlid="1" masterid="0" hint1="0" hint2="0" width="3000" height="3995" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
                       <control>
-                        <ddsxmlobjectstreaminitwrapper binary="000c0000ae1000009b0f0000" />
+                        <ddsxmlobjectstreaminitwrapper binary="000c0000b80b00009b0f0000" />
                       </control>
                       <layoutobject>
                         <ddsxmlobj>
@@ -600,12 +669,53 @@
                       </layoutobject>
                       <shape groupshapeid="0" groupnode="0" />
                     </ddscontrol>
+                    <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.3" tooltip="AGG_INTERVALS" left="-4610" top="185" logicalid="2" controlid="2" masterid="0" hint1="0" hint2="0" width="3016" height="1879" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                      <control>
+                        <ddsxmlobjectstreaminitwrapper binary="000c0000c80b000057070000" />
+                      </control>
+                      <layoutobject>
+                        <ddsxmlobj>
+                          <property name="LogicalObject" value="dbo_AGG_INTERVALS" vartype="8" />
+                        </ddsxmlobj>
+                      </layoutobject>
+                      <shape groupshapeid="0" groupnode="0" />
+                    </ddscontrol>
+                    <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.3" tooltip="hInterval" left="-35" top="5278" logicalid="3" controlid="3" masterid="0" hint1="0" hint2="0" width="3000" height="2302" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                      <control>
+                        <ddsxmlobjectstreaminitwrapper binary="000c0000b80b0000fe080000" />
+                      </control>
+                      <layoutobject>
+                        <ddsxmlobj>
+                          <property name="LogicalObject" value="hInterval" vartype="8" />
+                        </ddsxmlobj>
+                      </layoutobject>
+                      <shape groupshapeid="0" groupnode="0" />
+                    </ddscontrol>
+                    <ddscontrol controlprogid="MSDDS.Polyline" left="2665" top="2384" logicalid="4" controlid="4" masterid="0" hint1="0" hint2="0" width="2572" height="3795" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                      <control>
+                        <ddsxmlobj>
+                          <polyline endtypedst="6" endtypesrc="3" usercolor="15856113" linestyle="0" linerender="2" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+                        </ddsxmlobj>
+                      </control>
+                      <layoutobject>
+                        <ddsxmlobj>
+                          <property name="LogicalObject" value="dataSet.Relations[hInterval-collect]" vartype="8" />
+                          <property name="Virtual" value="0" vartype="11" />
+                          <property name="VisibleAP" value="0" vartype="3" />
+                        </ddsxmlobj>
+                      </layoutobject>
+                      <connector lineroutestyle="MSDDS.Rectilinear" sourceid="1" destid="3" sourceattachpoint="5" destattachpoint="11" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+                        <point x="4837" y="2883" />
+                        <point x="4837" y="5879" />
+                        <point x="2965" y="5879" />
+                      </connector>
+                    </ddscontrol>
                   </dds>
 </DiagramLayout>
                 <ShowRelationshipNames>False</ShowRelationshipNames>
                 <UseDiagramDefaultLayout>True</UseDiagramDefaultLayout>
-                <DiagramViewPortLeft>-12079</DiagramViewPortLeft>
-                <DiagramViewPortTop>-5927</DiagramViewPortTop>
+                <DiagramViewPortLeft>-9170</DiagramViewPortLeft>
+                <DiagramViewPortTop>-5411</DiagramViewPortTop>
                 <DiagramBoundingLeft>0</DiagramBoundingLeft>
                 <DiagramBoundingTop>0</DiagramBoundingTop>
                 <DiagramZoom>100</DiagramZoom>
@@ -617,19 +727,36 @@
       <DataSourceID>Time Series</DataSourceID>
       <Schema>
         <xs:schema id="Time_x0020_Series" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop">
-          <xs:element name="Time_x0020_Series" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:design-time-name="1da92aeb-c4e0-4010-8a5a-a5c7365e78f8">
+          <xs:element name="Time_x0020_Series" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:design-time-name="01537045-5534-4403-84bb-0ebdc4648c85">
             <xs:complexType>
               <xs:choice minOccurs="0" maxOccurs="unbounded">
-                <xs:element name="dbo_collect" msprop:design-time-name="a43f537d-3102-4c41-a515-6a781ac46e81" msprop:FriendlyName="collect" msprop:DbSchemaName="dbo" msprop:DbTableName="collect" msprop:TableType="Table">
+                <xs:element name="dbo_collect" msprop:design-time-name="30455e36-4d70-441f-b157-2c6a77728623" msprop:FriendlyName="collect" msprop:DbSchemaName="dbo" msprop:DbTableName="collect" msprop:TableType="Table">
                   <xs:complexType>
                     <xs:sequence>
-                      <xs:element name="tagId" msprop:design-time-name="aed30fa4-55b6-49af-96a7-70f8e9315271" msprop:DbColumnName="tagId" msprop:FriendlyName="tagId" type="xs:int" />
-                      <xs:element name="time" msprop:design-time-name="7caf764a-5fa5-4b3e-a30b-55d930c1a681" msprop:DbColumnName="time" msprop:FriendlyName="time" type="xs:dateTime" />
-                      <xs:element name="value" msprop:design-time-name="bf9b6aeb-eadf-4485-81c3-b8c48a3d3e9d" msprop:DbColumnName="value" msprop:FriendlyName="value" type="xs:double" />
-                      <xs:element name="dataQuality" msprop:design-time-name="c8693a82-ce6a-45ea-ab71-3aced9dfc1d3" msprop:DbColumnName="dataQuality" msprop:FriendlyName="dataQuality" type="xs:long" />
-                      <xs:element name="ownSysId" msprop:design-time-name="bfa87047-d1bb-4d38-bbd3-e97071417a80" msprop:DbColumnName="ownSysId" msprop:FriendlyName="ownSysId" type="xs:int" />
-                      <xs:element name="datasetId" msprop:design-time-name="e6a110fd-9d4c-45e8-a7fd-a85a4976a397" msprop:DbColumnName="datasetId" msprop:FriendlyName="datasetId" type="xs:int" />
-                      <xs:element name="fieldTime" msprop:design-time-name="b61dc376-53e6-44de-9922-0fa2b9beea56" msprop:DbColumnName="fieldTime" msprop:FriendlyName="fieldTime" type="xs:dateTime" />
+                      <xs:element name="tagId" msprop:design-time-name="2bb07e87-6ec5-4e18-99c8-f93b7a4e12ca" msprop:DbColumnName="tagId" msprop:FriendlyName="tagId" type="xs:int" />
+                      <xs:element name="time" msprop:design-time-name="703a19cd-7400-4cde-a0d9-cf6520c4ccfb" msprop:DbColumnName="time" msprop:FriendlyName="time" type="xs:dateTime" />
+                      <xs:element name="value" msprop:design-time-name="02d85128-b99a-4820-8425-a9cf3d009388" msprop:DbColumnName="value" msprop:FriendlyName="value" type="xs:double" />
+                      <xs:element name="dataQuality" msprop:design-time-name="73e7df2d-c568-4ca6-a090-d06e068e4fdd" msprop:DbColumnName="dataQuality" msprop:FriendlyName="dataQuality" type="xs:long" />
+                      <xs:element name="ownSysId" msprop:design-time-name="912f7f7d-19b4-4ac4-824d-abcdde3ad5a5" msprop:DbColumnName="ownSysId" msprop:FriendlyName="ownSysId" type="xs:int" />
+                      <xs:element name="datasetId" msprop:design-time-name="0e562b03-e4cc-416b-aa5e-3c9e6f020821" msprop:DbColumnName="datasetId" msprop:FriendlyName="datasetId" type="xs:int" />
+                      <xs:element name="fieldTime" msprop:design-time-name="c7ad6bfd-723f-45fa-bbe3-f9805058c1f5" msprop:DbColumnName="fieldTime" msprop:FriendlyName="fieldTime" type="xs:dateTime" />
+                    </xs:sequence>
+                  </xs:complexType>
+                </xs:element>
+                <xs:element name="dbo_AGG_INTERVALS" msprop:design-time-name="841bae0f-ad63-43ab-984b-7b8541820a9f" msprop:FriendlyName="AGG_INTERVALS" msprop:DbSchemaName="dbo" msprop:DbTableName="AGG_INTERVALS" msprop:TableType="Table">
+                  <xs:complexType>
+                    <xs:sequence>
+                      <xs:element name="START_TIME" msprop:design-time-name="4dfca8bc-e277-47ad-9020-21708b9ed8d5" msprop:DbColumnName="START_TIME" msprop:FriendlyName="START_TIME" type="xs:dateTime" minOccurs="0" />
+                      <xs:element name="END_TIME" msprop:design-time-name="7803009e-b36e-4d1a-bfb4-4983bb4e5266" msprop:DbColumnName="END_TIME" msprop:FriendlyName="END_TIME" type="xs:dateTime" minOccurs="0" />
+                    </xs:sequence>
+                  </xs:complexType>
+                </xs:element>
+                <xs:element name="hInterval" msprop:design-time-name="19c550f9-1b30-4ce4-9942-8f3c1ef85f1b" msprop:IsLogical="True" msprop:FriendlyName="hInterval" msprop:DbTableName="hInterval" msprop:TableType="View" msprop:Description="" msprop:QueryDefinition="SELECT DISTINCT collect.[time], AGG_INTERVALS.START_TIME, AGG_INTERVALS.END_TIME&#xD;&#xA;FROM            collect INNER JOIN&#xD;&#xA;                         AGG_INTERVALS ON collect.[time] &gt;= AGG_INTERVALS.START_TIME AND collect.[time] &lt;= AGG_INTERVALS.END_TIME" msprop:QueryBuilder="SpecificQueryBuilder">
+                  <xs:complexType>
+                    <xs:sequence>
+                      <xs:element name="time" msprop:design-time-name="540b9c2d-8eb7-4882-b5ae-31c6d655fa7c" msprop:DbColumnName="time" msprop:FriendlyName="time" type="xs:dateTime" minOccurs="0" />
+                      <xs:element name="START_TIME" msprop:design-time-name="7a849da5-3e0b-4847-a22b-c51585900d99" msprop:DbColumnName="START_TIME" msprop:FriendlyName="START_TIME" type="xs:dateTime" minOccurs="0" />
+                      <xs:element name="END_TIME" msprop:design-time-name="06f0f2f4-1845-4baf-bc96-98c0aa0bc3c7" msprop:DbColumnName="END_TIME" msprop:FriendlyName="END_TIME" type="xs:dateTime" minOccurs="0" />
                     </xs:sequence>
                   </xs:complexType>
                 </xs:element>
@@ -642,6 +769,11 @@
               <xs:field xpath="ownSysId" />
             </xs:unique>
           </xs:element>
+          <xs:annotation>
+            <xs:appinfo>
+              <msdata:Relationship name="hInterval-collect" msdata:parent="dbo_collect" msdata:child="hInterval" msdata:parentkey="time" msdata:childkey="time" msprop:IsLogical="True" msprop:Description="" />
+            </xs:appinfo>
+          </xs:annotation>
         </xs:schema>
         <Time_x0020_Series xmlns="" />
       </Schema>

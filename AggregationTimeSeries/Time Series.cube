@@ -1,4 +1,4 @@
-﻿<Cube xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="93cbe5ee-2e06-40a7-b59d-3ce054e08af9" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+﻿<Cube xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="f1c247fd-fc4d-4994-951f-45f0f631f63b" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
   <ID>Time Series</ID>
   <Name>Time Series</Name>
   <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
@@ -8,7 +8,7 @@
       <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramLayout</Name>
       <Value>
         <dds xmlns="">
-          <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="2" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-10598" scrolltop="-5266" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="100" x="24236" y="14526" backcolor="2434342" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="0" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
+          <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="4" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-10590" scrolltop="-4449" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="100" x="24236" y="17595" backcolor="2434342" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="0" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
             <font>
               <ddsxmlobjectstreamwrapper binary="01000000900144420100065461686f6d61" />
             </font>
@@ -19,7 +19,7 @@
           <layoutmanager>
             <ddsxmlobj />
           </layoutmanager>
-          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.3" tooltip="collect" left="20" top="0" logicalid="1" controlid="1" masterid="0" hint1="0" hint2="0" width="3000" height="3995" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.3" tooltip="collect" left="28" top="0" logicalid="1" controlid="1" masterid="0" hint1="0" hint2="0" width="3000" height="3995" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
             <control>
               <ddsxmlobjectstreaminitwrapper binary="000c0000b80b00009b0f0000" />
             </control>
@@ -29,6 +29,35 @@
               </ddsxmlobj>
             </layoutobject>
             <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.3" tooltip="hInterval" left="20" top="6395" logicalid="2" controlid="2" masterid="0" hint1="0" hint2="0" width="3016" height="2302" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000c0000c80b0000fe080000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="hInterval" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+          <ddscontrol controlprogid="MSDDS.Polyline" left="1129" top="3496" logicalid="3" controlid="3" masterid="0" hint1="0" hint2="0" width="799" height="3199" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobj>
+                <polyline endtypedst="6" endtypesrc="3" usercolor="15856113" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+              </ddsxmlobj>
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dataSet.Relations[hInterval-collect]" vartype="8" />
+                <property name="Virtual" value="0" vartype="11" />
+                <property name="VisibleAP" value="0" vartype="3" />
+              </ddsxmlobj>
+            </layoutobject>
+            <connector lineroutestyle="MSDDS.Rectilinear" sourceid="1" destid="2" sourceattachpoint="5" destattachpoint="4" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+              <point x="1528" y="3995" />
+              <point x="1528" y="6395" />
+            </connector>
           </ddscontrol>
         </dds>
       </Value>
@@ -47,11 +76,11 @@
     </Annotation>
     <Annotation>
       <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortLeft</Name>
-      <Value>-10598</Value>
+      <Value>-10590</Value>
     </Annotation>
     <Annotation>
       <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortTop</Name>
-      <Value>-5266</Value>
+      <Value>-4449</Value>
     </Annotation>
     <Annotation>
       <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingLeft</Name>
@@ -69,34 +98,43 @@
   <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
   <State>Unprocessed</State>
   <Dimensions>
-    <Dimension dwd:design-time-name="5794ee51-ce86-4aea-aa9f-d21fba27f1db">
-      <ID>Time</ID>
-      <Name>Time</Name>
-      <DimensionID>Collect</DimensionID>
-      <Attributes>
-        <Attribute dwd:design-time-name="4053a294-68bd-4f3a-83e6-cc8823151d93">
-          <AttributeID>Time</AttributeID>
-        </Attribute>
-      </Attributes>
-      <Hierarchies>
-        <Hierarchy dwd:design-time-name="f3c45046-323e-456e-b684-5cc4c29ed964">
-          <HierarchyID>Hierarchy</HierarchyID>
-        </Hierarchy>
-      </Hierarchies>
-    </Dimension>
-    <Dimension dwd:design-time-name="2fba4b12-5770-4a64-b3f2-93bdcbc47bf4">
-      <ID>TagId</ID>
-      <Name>TagId</Name>
+    <Dimension dwd:design-time-name="8efcc38d-d69b-4c92-8dba-cc33484dc965">
+      <ID>Collect</ID>
+      <Name>Collect</Name>
       <DimensionID>Collect 1</DimensionID>
       <Attributes>
-        <Attribute dwd:design-time-name="472f09d7-b7d5-47d9-ad15-4526d1aa4eb7">
+        <Attribute dwd:design-time-name="0effca24-3f5f-4d54-9e45-8e095a3b149d">
           <AttributeID>Tag Id</AttributeID>
         </Attribute>
       </Attributes>
     </Dimension>
+    <Dimension dwd:design-time-name="7c66edcc-2116-4bac-8389-6974536872e5">
+      <ID>h Interval</ID>
+      <Name>h Interval</Name>
+      <DimensionID>h Interval</DimensionID>
+      <Attributes>
+        <Attribute dwd:design-time-name="cec9d6b9-b10d-481c-9e9b-6cc411b16ef0">
+          <AttributeID>Time</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="8ea5e32f-de8c-4bce-a2b5-6c1b1c8509d8">
+          <AttributeID>START TIME</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="d41f7d22-7846-448a-a12e-ebe4e75d4170">
+          <AttributeID>END TIME</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="4b054595-4a65-49d9-961c-811ae33b3098">
+          <AttributeID>Collect - Time</AttributeID>
+        </Attribute>
+      </Attributes>
+      <Hierarchies>
+        <Hierarchy dwd:design-time-name="28e03e46-452f-47d0-b1b0-0df433e18d1c">
+          <HierarchyID>Hierarchy</HierarchyID>
+        </Hierarchy>
+      </Hierarchies>
+    </Dimension>
   </Dimensions>
   <MeasureGroups>
-    <MeasureGroup dwd:design-time-name="ea4a8f36-d0bb-46ea-8196-450f33854c8f">
+    <MeasureGroup dwd:design-time-name="41ea4b67-b387-4f25-b9a6-3fcb997b72f3">
       <ID>Collect</ID>
       <Name>Collect</Name>
       <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
@@ -104,24 +142,24 @@
       <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
       <State>Unprocessed</State>
       <Measures>
-        <Measure dwd:design-time-name="ac35b5ed-360b-429e-af11-d9b5ae52c977">
+        <Measure dwd:design-time-name="581e6bbb-2b86-43c6-8571-fbae9ead2472">
           <ID>Value</ID>
           <Name>Value</Name>
-          <Source dwd:design-time-name="58d3384d-102b-4673-a00a-7d27a0f818b8">
+          <Source dwd:design-time-name="45399dde-4555-4001-b5a0-8cd640efd1a0">
             <DataType>Double</DataType>
-            <Source xsi:type="ColumnBinding" dwd:design-time-name="343928ec-ab11-4b8c-8687-6552f0f97e6f">
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="f6cf83b2-8819-43ac-8072-d97862d316f2">
               <TableID>dbo_collect</TableID>
               <ColumnID>value</ColumnID>
             </Source>
           </Source>
         </Measure>
-        <Measure dwd:design-time-name="14bdf90d-b287-4e9b-b69d-248920ba0f87">
+        <Measure dwd:design-time-name="bcb385b3-dd7c-43f3-a0df-5ad1c2a30eaa">
           <ID>Minimum Value</ID>
           <Name>Minimum Value</Name>
           <AggregateFunction>Min</AggregateFunction>
-          <Source dwd:design-time-name="6a066ee9-0bb1-42e1-8d1e-7ed5f202b2cf">
+          <Source dwd:design-time-name="c196882d-87fa-4e98-bd4c-389f3a354883">
             <DataType>Double</DataType>
-            <Source xsi:type="ColumnBinding" dwd:design-time-name="38f68bfe-7a21-4b38-aab5-ba56e3748ea1">
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="282ef5f7-b8e2-4ff6-9420-82a0b1a8635d">
               <TableID>dbo_collect</TableID>
               <ColumnID>value</ColumnID>
             </Source>
@@ -131,35 +169,31 @@
       <StorageMode>Molap</StorageMode>
       <ProcessingMode>Regular</ProcessingMode>
       <Dimensions>
-        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="1f9cbbc6-f7dc-4424-a731-a61f58c131b1">
-          <CubeDimensionID>Time</CubeDimensionID>
+        <Dimension xsi:type="DegenerateMeasureGroupDimension" dwd:design-time-name="3f4378ef-b3fd-408e-b0a0-a08383242e8a">
+          <CubeDimensionID>Collect</CubeDimensionID>
           <Attributes>
-            <Attribute dwd:design-time-name="20ca689e-cacb-4a01-9602-ef30010b4457">
-              <AttributeID>Time</AttributeID>
+            <Attribute dwd:design-time-name="0c79b548-595c-4e9f-91b2-cb823755de3b">
+              <AttributeID>Tag Id</AttributeID>
               <KeyColumns>
-                <KeyColumn dwd:design-time-name="1a2e6b5b-611a-4bb5-a6e5-e9a6e59be7a1">
+                <KeyColumn dwd:design-time-name="2d0c0346-09cd-4369-b087-60425c757874">
+                  <DataType>Integer</DataType>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="359c583b-c3bd-4b49-91ea-623bf075bce3">
+                    <TableID>dbo_collect</TableID>
+                    <ColumnID>tagId</ColumnID>
+                  </Source>
+                </KeyColumn>
+                <KeyColumn dwd:design-time-name="c1714fe3-a9bb-4d6f-9265-4c09a82944e3">
                   <DataType>Date</DataType>
-                  <Source xsi:type="ColumnBinding" dwd:design-time-name="443d7aac-3271-49d1-a9e6-d663a2b6a33c">
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="81e1be48-18a7-4801-9d61-d1b6f1956d5b">
                     <TableID>dbo_collect</TableID>
                     <ColumnID>time</ColumnID>
                   </Source>
                 </KeyColumn>
-              </KeyColumns>
-              <Type>Granularity</Type>
-            </Attribute>
-          </Attributes>
-        </Dimension>
-        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="32893a98-2e6a-4e86-9dc9-a25668bff996">
-          <CubeDimensionID>TagId</CubeDimensionID>
-          <Attributes>
-            <Attribute dwd:design-time-name="7f340ab5-e9f1-4e88-b8ac-e8310c96582c">
-              <AttributeID>Tag Id</AttributeID>
-              <KeyColumns>
-                <KeyColumn dwd:design-time-name="8f578322-1e08-4ae5-8d21-765ce3a22e26">
+                <KeyColumn dwd:design-time-name="99e9514a-c37c-403a-afa6-2e45e4ba6e9c">
                   <DataType>Integer</DataType>
-                  <Source xsi:type="ColumnBinding" dwd:design-time-name="02cc7dc8-9ea4-42eb-9103-f7629f928617">
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="a0f53bfb-173c-4dc4-8f5e-143fabd2e067">
                     <TableID>dbo_collect</TableID>
-                    <ColumnID>tagId</ColumnID>
+                    <ColumnID>ownSysId</ColumnID>
                   </Source>
                 </KeyColumn>
               </KeyColumns>
@@ -171,7 +205,7 @@
       <Partitions />
     </MeasureGroup>
   </MeasureGroups>
-  <Source dwd:design-time-name="7f7f8b9d-b6a6-48f4-b250-c163d5ccd51d">
+  <Source dwd:design-time-name="1eb84bc2-365b-40ae-b154-3229685a678a">
     <DataSourceViewID>Time Series</DataSourceViewID>
   </Source>
 </Cube>
