@@ -13,10 +13,16 @@
     </DataSources>
     <Dimensions>
       <Dimension>
-        <ID>h Interval</ID>
+        <ID>tagId</ID>
       </Dimension>
       <Dimension>
-        <ID>Collect 1</ID>
+        <ID>collectTime</ID>
+      </Dimension>
+      <Dimension>
+        <ID>startTime</ID>
+      </Dimension>
+      <Dimension>
+        <ID>endTime</ID>
       </Dimension>
     </Dimensions>
     <Cubes>

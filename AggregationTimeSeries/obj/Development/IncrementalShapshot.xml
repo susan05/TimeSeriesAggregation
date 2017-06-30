@@ -19,35 +19,49 @@
     <ObjectSnapshots>
       <ObjectSnapshot>
         <Type>Microsoft.AnalysisServices.RelationalDataSource</Type>
-        <TimeStamp>4Hc4AOT9YZF2ndKB5KN33qZrJDc=6/29/2017 9:57:56 AM6/29/2017 9:57:56 AM</TimeStamp>
+        <TimeStamp>4Hc4AOT9YZF2ndKB5KN33qZrJDc=6/30/2017 3:07:02 PM6/30/2017 3:07:02 PM</TimeStamp>
         <ID>
           <String>Time Series</String>
         </ID>
       </ObjectSnapshot>
       <ObjectSnapshot>
         <Type>Microsoft.AnalysisServices.DataSourceView</Type>
-        <TimeStamp>TOaH1/Y9h5vE2lDrNWUh2YS5e0g=6/29/2017 2:21:34 PM6/29/2017 2:13:08 PM</TimeStamp>
+        <TimeStamp>TOaH1/Y9h5vE2lDrNWUh2YS5e0g=6/30/2017 3:07:02 PM6/30/2017 3:07:02 PM</TimeStamp>
         <ID>
           <String>Time Series</String>
         </ID>
       </ObjectSnapshot>
       <ObjectSnapshot>
         <Type>Microsoft.AnalysisServices.Dimension</Type>
-        <TimeStamp>tUaqnu3+Fi0U4QOXkg43Z3PEANQ=6/29/2017 2:31:44 PM6/29/2017 2:21:34 PM</TimeStamp>
+        <TimeStamp>/aqre66HHaXR6Yf2iOSSsnOfn5M=6/30/2017 3:30:15 PM6/30/2017 3:30:15 PM</TimeStamp>
         <ID>
-          <String>h Interval</String>
+          <String>tagId</String>
         </ID>
       </ObjectSnapshot>
       <ObjectSnapshot>
         <Type>Microsoft.AnalysisServices.Dimension</Type>
-        <TimeStamp>d54meLKze27RfYX76nFdEfuIfHY=6/29/2017 2:38:25 PM6/29/2017 2:38:25 PM</TimeStamp>
+        <TimeStamp>qGgRKRXzdFNfESGg+G1m7RP4BMg=6/30/2017 3:31:07 PM6/30/2017 3:31:07 PM</TimeStamp>
         <ID>
-          <String>Collect 1</String>
+          <String>collectTime</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>fuxr4jDVO5+8+8LLTZJFqehQ4V0=6/30/2017 3:33:17 PM6/30/2017 3:31:37 PM</TimeStamp>
+        <ID>
+          <String>startTime</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>WM+ab18UijUNtGwnzh7bPSvmyts=6/30/2017 3:32:14 PM6/30/2017 3:32:14 PM</TimeStamp>
+        <ID>
+          <String>endTime</String>
         </ID>
       </ObjectSnapshot>
       <ObjectSnapshot>
         <Type>Microsoft.AnalysisServices.Cube</Type>
-        <TimeStamp>Cn6/H3axAlv5mVr0BSwDRLG428E=6/29/2017 2:52:52 PM6/29/2017 2:38:25 PM4h3fZXr2qUhhzzjdSk15qLRlxv0=6/29/2017 2:52:52 PM6/29/2017 2:38:25 PM</TimeStamp>
+        <TimeStamp>yStoJ1Vo0pcMjAo5hbkJlDprgJk=6/30/2017 4:09:23 PM6/30/2017 3:36:26 PMXyhoHGoI1wZQKe4oYH4VcKuAKJ0=6/30/2017 4:09:23 PM6/30/2017 3:36:26 PM</TimeStamp>
         <ID>
           <String>Time Series</String>
         </ID>
@@ -55,7 +69,7 @@
     </ObjectSnapshots>
     <DatabaseSnapshot>
       <Type>Microsoft.AnalysisServices.Database</Type>
-      <TimeStamp>rtgk7JvPR6nEMV+3Ay/0k2NyJuk=6/29/2017 9:57:56 AM6/29/2017 9:57:56 AM</TimeStamp>
+      <TimeStamp>rtgk7JvPR6nEMV+3Ay/0k2NyJuk=6/30/2017 3:07:02 PM6/30/2017 3:07:02 PM</TimeStamp>
       <ID>
         <String>AggregationTimeSeries</String>
       </ID>
@@ -64,5 +78,5 @@
   </Snapshot>
   <AssemblyLocations />
   <ProcessingComplete>true</ProcessingComplete>
-  <LastDeployed>2017-06-29T12:52:53.413333Z</LastDeployed>
+  <LastDeployed>2017-06-30T14:09:23.766667Z</LastDeployed>
 </DeploymentSnapshot>
