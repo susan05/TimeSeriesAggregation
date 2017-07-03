@@ -20,20 +20,12 @@
   </Cubes>
   <Dimensions>
     <ProjectItem>
-      <Name>tagId.dim</Name>
-      <FullPath>tagId.dim</FullPath>
+      <Name>Collect.dim</Name>
+      <FullPath>Collect.dim</FullPath>
     </ProjectItem>
     <ProjectItem>
-      <Name>collectTime.dim</Name>
-      <FullPath>collectTime.dim</FullPath>
-    </ProjectItem>
-    <ProjectItem>
-      <Name>startTime.dim</Name>
-      <FullPath>startTime.dim</FullPath>
-    </ProjectItem>
-    <ProjectItem>
-      <Name>endTime.dim</Name>
-      <FullPath>endTime.dim</FullPath>
+      <Name>AGG HOUR INTERVAL.dim</Name>
+      <FullPath>AGG HOUR INTERVAL.dim</FullPath>
     </ProjectItem>
   </Dimensions>
   <DataSources>
