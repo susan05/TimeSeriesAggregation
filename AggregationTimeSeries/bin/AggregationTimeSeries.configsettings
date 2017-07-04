@@ -13,15 +13,15 @@
     </DataSources>
     <Dimensions>
       <Dimension>
-        <ID>Collect</ID>
+        <ID>AGG HOUR INTERVAL</ID>
       </Dimension>
       <Dimension>
-        <ID>AGG HOUR INTERVAL</ID>
+        <ID>POINT</ID>
       </Dimension>
     </Dimensions>
     <Cubes>
       <Cube>
-        <ID>Time Series</ID>
+        <ID>Time Series 1</ID>
         <MeasureGroups>
           <MeasureGroup>
             <ID>Collect</ID>

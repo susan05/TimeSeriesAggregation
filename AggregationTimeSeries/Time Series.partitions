@@ -1,96 +1,25 @@
-﻿<Cube xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="ebb95c21-0163-4504-82c7-21f550d0500c" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+﻿<Cube xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="7b4e258f-836c-4767-bfba-03d962f17292" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
   <ID>Time Series</ID>
   <MeasureGroups>
     <MeasureGroup>
       <ID>Collect</ID>
       <Partitions>
-        <Partition dwd:design-time-name="8eac7e99-b5b7-4948-a499-854213c515df">
+        <Partition dwd:design-time-name="8714a54b-0b2a-414b-a846-0874f20b32b5">
           <ID>Collect</ID>
           <Name>Collect</Name>
           <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
           <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
           <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
           <State>Unprocessed</State>
-          <Source xsi:type="DsvTableBinding" dwd:design-time-name="7a3302ca-68b4-4eac-a8c6-80b10a20a674">
+          <Source xsi:type="DsvTableBinding" dwd:design-time-name="88a7aa96-27a7-4a64-ba14-472ccca0e885">
             <DataSourceViewID>Time Series</DataSourceViewID>
             <TableID>dbo_collect</TableID>
           </Source>
           <StorageMode>Molap</StorageMode>
           <CurrentStorageMode>Molap</CurrentStorageMode>
           <ProcessingMode>Regular</ProcessingMode>
-          <EstimatedRows>9618753</EstimatedRows>
-          <AggregationDesignID>AggregationDesign</AggregationDesignID>
         </Partition>
       </Partitions>
-      <AggregationDesigns>
-        <AggregationDesign>
-          <ID>AggregationDesign</ID>
-          <Name>AggregationDesign</Name>
-          <CreatedTimestamp>2017-07-03T13:54:31.14Z</CreatedTimestamp>
-          <LastSchemaUpdate>2017-07-03T13:54:31.14Z</LastSchemaUpdate>
-          <EstimatedRows>9618753</EstimatedRows>
-          <Dimensions>
-            <Dimension>
-              <CubeDimensionID>Collect</CubeDimensionID>
-              <Attributes>
-                <Attribute>
-                  <AttributeID>Tag Id</AttributeID>
-                  <EstimatedCount>9618753</EstimatedCount>
-                </Attribute>
-                <Attribute>
-                  <AttributeID>time</AttributeID>
-                </Attribute>
-              </Attributes>
-            </Dimension>
-            <Dimension>
-              <CubeDimensionID>AGG HOUR INTERVAL</CubeDimensionID>
-              <Attributes>
-                <Attribute>
-                  <AttributeID>Time</AttributeID>
-                  <EstimatedCount>17910</EstimatedCount>
-                </Attribute>
-                <Attribute>
-                  <AttributeID>START TIME</AttributeID>
-                </Attribute>
-                <Attribute>
-                  <AttributeID>END TIME</AttributeID>
-                </Attribute>
-              </Attributes>
-            </Dimension>
-          </Dimensions>
-          <Aggregations>
-            <Aggregation>
-              <ID>Aggregation 0</ID>
-              <Name>Aggregation 0</Name>
-              <Dimensions>
-                <Dimension>
-                  <CubeDimensionID>Collect</CubeDimensionID>
-                </Dimension>
-                <Dimension>
-                  <CubeDimensionID>AGG HOUR INTERVAL</CubeDimensionID>
-                </Dimension>
-              </Dimensions>
-            </Aggregation>
-            <Aggregation>
-              <ID>Aggregation 1</ID>
-              <Name>Aggregation 1</Name>
-              <Dimensions>
-                <Dimension>
-                  <CubeDimensionID>Collect</CubeDimensionID>
-                </Dimension>
-                <Dimension>
-                  <CubeDimensionID>AGG HOUR INTERVAL</CubeDimensionID>
-                  <Attributes>
-                    <Attribute>
-                      <AttributeID>Time</AttributeID>
-                    </Attribute>
-                  </Attributes>
-                </Dimension>
-              </Dimensions>
-            </Aggregation>
-          </Aggregations>
-        </AggregationDesign>
-      </AggregationDesigns>
     </MeasureGroup>
   </MeasureGroups>
 </Cube>

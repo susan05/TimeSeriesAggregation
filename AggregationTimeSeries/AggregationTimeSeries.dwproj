@@ -20,12 +20,12 @@
   </Cubes>
   <Dimensions>
     <ProjectItem>
-      <Name>Collect.dim</Name>
-      <FullPath>Collect.dim</FullPath>
-    </ProjectItem>
-    <ProjectItem>
       <Name>AGG HOUR INTERVAL.dim</Name>
       <FullPath>AGG HOUR INTERVAL.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>POINT.dim</Name>
+      <FullPath>POINT.dim</FullPath>
     </ProjectItem>
   </Dimensions>
   <DataSources>
