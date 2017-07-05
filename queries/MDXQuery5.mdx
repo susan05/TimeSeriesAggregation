@@ -1,0 +1,18 @@
+with member [Measures].[Average] as
+AVG([AGG HOUR INTERVAL].[Time].Members, [Measures].[Minimum Value])
+select 
+{
+	[Measures].[Average]
+}on 0,
+
+crossjoin
+(
+	{
+		[POINT].[ID].&[1077074]
+	},
+	{
+		[AGG HOUR INTERVAL].[START TIME].&[2017-06-21T14:13:31.776667] :[AGG HOUR INTERVAL].[END TIME].&[2017-06-22T23:00:00]
+	}
+) on 1
+from 
+[Time Series]

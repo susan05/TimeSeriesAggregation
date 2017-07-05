@@ -1,0 +1,14 @@
+//count of rows in table 
+
+select {
+[Measures].[Value]
+	
+} on axis (0)
+,
+{
+	[POINT].[ID].Children
+}on axis (1)
+
+// set a dimension like Points and it will return the count of rows for each Point
+from 
+	[Time Series]
