@@ -69,7 +69,7 @@
       <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ARDiagramLayout</Name>
       <Value>
         <DiagramLayout ZoomPercent="100" ViewPortX="0" ViewPortY="0" xmlns="">
-          <Shapes NodeWidth="114">
+          <Shapes NodeWidth="123">
             <Shape Id="Time" Expanded="true">
               <Attributes>
                 <Attribute Id="Time" />
@@ -81,7 +81,7 @@
                 <Attribute Id="START TIME" />
                 <Attribute Id="END TIME" />
               </Attributes>
-              <Position x="167" y="20" />
+              <Position x="178" y="20" />
             </Shape>
           </Shapes>
         </DiagramLayout>
@@ -117,7 +117,7 @@
         </KeyColumn>
       </KeyColumns>
       <AttributeRelationships>
-        <AttributeRelationship dwd:design-time-name="4bd71a53-e73e-4a24-a9f3-af863bd7c196">
+        <AttributeRelationship dwd:design-time-name="b32417c5-6401-4023-bd0f-a9c04eba1a05">
           <AttributeID>START TIME</AttributeID>
           <Name>START TIME</Name>
         </AttributeRelationship>
@@ -140,7 +140,7 @@
         </KeyColumn>
       </KeyColumns>
       <AttributeRelationships>
-        <AttributeRelationship dwd:design-time-name="8314bd49-47e2-4e07-bc9c-1a62fe306296">
+        <AttributeRelationship dwd:design-time-name="b5c396a7-15f4-4609-8e51-5106da669aa6">
           <AttributeID>END TIME</AttributeID>
           <Name>END TIME</Name>
         </AttributeRelationship>

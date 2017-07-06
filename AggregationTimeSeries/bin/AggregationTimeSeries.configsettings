@@ -21,7 +21,7 @@
     </Dimensions>
     <Cubes>
       <Cube>
-        <ID>Time Series 1</ID>
+        <ID>Time Series 1 1</ID>
         <MeasureGroups>
           <MeasureGroup>
             <ID>Collect</ID>
